@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>飞机大战</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="ulist"></div>
+  <div id="battleground"></div>
+  <div id="data">
+    <div id="data_top">
+      <div id="Pause">暂停</div>
+      <div id="scores"></div>
+      <div id="fScores">
+        <div id="hpBox">
+          <img id="myHP" src="img/hp_0.png" />
+          <div id="myHpView">
+            <div id="nowHp"></div>
+          </div>
+        </div>
+        <img id="maxImg" src="img/maxScores.png" /><br />
+        <div id="maxScores"></div>
+      </div>
+    </div>
+    <div id="data_middle"></div>
+    <div id="boss">
+      <div id="bossTit">BOSS</div>
+      <div id="bossHp">
+        <div id="bossNowHp"></div>
+      </div>
+    </div>
+  </div>
+  <img id="bgRed" src="img/boooo.png" />
+  <div id="gameOver">
+    <div id="overTit"><img id="overTitImg_0" src="img/over_0.png" /><img id="overTitImg_1" src="img/over_1.png" /></div>
+    <div id="overImg"></div>
+    <div id="restart">
+      <img src="img/restart.png" />
+    </div>
+  </div>
+  <div id="hint">
+    <input type="button" value="开始游戏" id="consoleGame">
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
